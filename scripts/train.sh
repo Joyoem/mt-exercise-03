@@ -17,7 +17,9 @@ SECONDS=0
 
 logs=$base/logs
 
-model_name=deen_transformer_regular
+model_name=deen_transformer_pre
+# model_name=deen_transformer_post
+# model_name=deen_transformer_regular
 
 mkdir -p $logs
 
