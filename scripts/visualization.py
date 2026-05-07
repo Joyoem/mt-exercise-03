@@ -30,7 +30,6 @@ models = {
     "Post-norm": os.path.join(base_path, "deen_transformer_post", "validations.txt")
 }
 
-# 2. 提取数据
 df_list = []
 for name, path in models.items():
     series = parse_validations(path)
